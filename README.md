@@ -4,8 +4,8 @@
 
 ChatGPTのAPIをLINEで呼び出し、LINE経由で会話するデモの試作
 
-- 答えられない情報は、LangChainのAgent機能((ReAct)[https://arxiv.org/abs/2210.03629])を使ってSerpAPIを呼び出し、最新の情報を参照する
-- メモリーを参照し、過去の会話ログ情報を保持した状態で会話する
+- 答えられない情報は、LangChainのAgent機能: [ReAct](https://arxiv.org/abs/2210.03629) を使ってSerpAPIを呼び出し、最新の情報を参照する
+- メモリーを参照し、過去の会話ログ情報を参照し、会話する
 - 特定の口調で返答する
 
 ## 構成
